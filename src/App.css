@@ -1,0 +1,75 @@
+@import '~antd/dist/antd.css';
+
+.App {
+   background-color: gainsboro;
+   height: 100%;
+   min-width: 100%;
+   display: block;
+   padding-bottom: 50%;
+
+}
+.configure{
+  float: left;
+  color: white;
+  background: #040405;
+  padding-top:3px;
+  width: 20px;
+  height: 20px;
+}
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-table{
+  color:black;
+  background-color: black;
+  margin-top: 8%;
+  padding: 20px 20px;
+  min-width: 840px;
+  width: 1040px;
+  display: block;
+}
+.sensor-heading{
+  color: rebeccapurple;
+  text-align: center;
+  background-color: #E6E6FA	;  
+  height: 30px;
+  border: 2px solid #2F4F4F	;
+  padding-bottom: 35px;
+  width: 1000px;
+}
+
+th {
+  color: white;
+  background-color:#778899	;
+  text-align: center;
+  display: -ms-inline-grid;
+  min-width:200px;
+  max-width:200px;
+  height: auto;
+}
+
+.value{
+  background-color: #040405;
+  color: #00FF00;
+}
+td{
+  background-color: #bfbfec;
+  text-align: center;
+  color: black;
+  min-width:200px;
+  max-width:200px;
+}
